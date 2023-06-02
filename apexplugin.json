@@ -1,8 +1,8 @@
 {
-  "name": "FAQ",
+  "name": "Collapsible FAQ Section",
   "version": "1.0",
   "description": "Collapsible FAQ component for APEX. Usable as Single and Multiple.",
-  "keywords": ["slide", "slideover", "modal", "dialog"],
+  "keywords": ["FAQ", "collapse"],
   "homepage": "https://github.com/phartenfeller/apex-faq-template-component",
   "bugs": {
     "url": "https://github.com/phartenfeller/apex-faq-template-component/issues",
@@ -27,7 +27,7 @@
       "versions": ["23.1.0"],
       "plugin": {
         "internalName": "DEV.HARTENFELLER.FAQ",
-        "type": "region",
+        "type": "template component",
         "demo": "https://apex.oracle.com/pls/apex/r/hartenfeller_dev/template-component-demos/faq",
         "previewImage": "https://raw.githubusercontent.com/phartenfeller/apex-faq-template-component/main/assets/faq-region.png?raw=true"
       }
