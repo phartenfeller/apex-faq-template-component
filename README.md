@@ -1,0 +1,1 @@
+# apex-faq-template-component
