@@ -20,25 +20,25 @@ begin
 wwv_flow_imp.import_begin (
  p_version_yyyy_mm_dd=>'2023.04.28'
 ,p_release=>'23.1.0'
-,p_default_workspace_id=>22914957980901228278
-,p_default_application_id=>528
+,p_default_workspace_id=>4801001554511370018
+,p_default_application_id=>55219
 ,p_default_id_offset=>0
-,p_default_owner=>'L'
+,p_default_owner=>'WKSP_HARTENFELLERDEV'
 );
 end;
 /
  
-prompt APPLICATION 528 - Oracle APEX 23.1
+prompt APPLICATION 55219 - Template Component Demos
 --
 -- Application Export:
---   Application:     528
---   Name:            Oracle APEX 23.1
---   Date and Time:   10:52 Monday June 5, 2023
---   Exported By:     MOREAUX.LOUIS@GMAIL.COM
+--   Application:     55219
+--   Name:            Template Component Demos
+--   Date and Time:   12:58 Wednesday June 7, 2023
+--   Exported By:     HARTENFELLER.DEV@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Component Export
 --   Manifest
---     PLUGIN: 46188874916901458349
+--     PLUGIN: 71292286768981168238
 --   Manifest End
 --   Version:         23.1.0
 --   Instance ID:     63113759365424
@@ -52,7 +52,7 @@ end;
 prompt --application/shared_components/plugins/template_component/dev_hartenfeller_faq
 begin
 wwv_flow_imp_shared.create_plugin(
- p_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_plugin_type=>'TEMPLATE COMPONENT'
 ,p_theme_id=>nvl(wwv_flow_application_install.get_theme_id, '')
 ,p_name=>'DEV.HARTENFELLER.FAQ'
@@ -83,13 +83,13 @@ wwv_flow_imp_shared.create_plugin(
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
 ,p_help_text=>'Collapsible FAQ component for APEX. Usable as Single and Multiple.'
-,p_version_identifier=>'1.0'
+,p_version_identifier=>'1.1'
 ,p_about_url=>'https://github.com/phartenfeller/apex-faq-template-component'
 ,p_files_version=>103
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(46188875963741458365)
-,p_plugin_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(71292287815821168254)
+,p_plugin_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>1
 ,p_display_sequence=>10
@@ -103,8 +103,8 @@ wwv_flow_imp_shared.create_plugin_attribute(
 ,p_help_text=>'Select the text column that should be collapsed.'
 );
 wwv_flow_imp_shared.create_plugin_attribute(
- p_id=>wwv_flow_imp.id(46188876438410458365)
-,p_plugin_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(71292288290490168254)
+,p_plugin_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_attribute_scope=>'COMPONENT'
 ,p_attribute_sequence=>2
 ,p_display_sequence=>1
@@ -134,8 +134,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(23795664517654198639)
-,p_plugin_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(48899076369733908528)
+,p_plugin_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_file_name=>'index.min.js'
 ,p_mime_type=>'text/javascript'
 ,p_file_charset=>'utf-8'
@@ -160,8 +160,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(46190602718707987691)
-,p_plugin_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(71294014570787697580)
+,p_plugin_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_file_name=>'index.css'
 ,p_mime_type=>'text/css'
 ,p_file_charset=>'utf-8'
@@ -185,8 +185,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(46433352902460101040)
-,p_plugin_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(71536764754539810929)
+,p_plugin_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_file_name=>'index.js'
 ,p_mime_type=>'text/javascript'
 ,p_file_charset=>'utf-8'
@@ -209,8 +209,8 @@ end;
 /
 begin
 wwv_flow_imp_shared.create_plugin_file(
- p_id=>wwv_flow_imp.id(46450348332537332432)
-,p_plugin_id=>wwv_flow_imp.id(46188874916901458349)
+ p_id=>wwv_flow_imp.id(71553760184617042321)
+,p_plugin_id=>wwv_flow_imp.id(71292286768981168238)
 ,p_file_name=>'index.min.css'
 ,p_mime_type=>'text/css'
 ,p_file_charset=>'utf-8'

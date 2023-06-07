@@ -4,7 +4,7 @@ This Template Component Plug-In allows you to display a collabsible FAQ-style li
 
 ![As region](assets/faq-region.png)
 
-It also works in report columns, but breaks the column layout:
+It also works in report columns, but the column width can change:
 
 ![As column](assets/as-report-column.png)
 
